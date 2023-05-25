@@ -1,0 +1,174 @@
+* {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.logoUncripto {
+     margin-left: 10px;
+     width: 150px;
+}
+
+body {
+        background-image: linear-gradient(mediumseagreen, palegreen);
+}
+
+header {
+    height: 30px;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 150px;
+}
+
+.text-area {
+    border: none;
+    color: white;
+    background: none;
+    height: 300px;
+    width: 470px;
+    margin-top: 31px;
+    margin-left: 50px;
+    text-transform: lowercase;
+    border: none;
+    border-radius: 24px;
+    padding: 2px 10px;
+}
+::placeholder {color: white; }
+    .text-area:focus {
+        outline: none;
+    }
+
+.mensagem {
+    background-color: white;
+    background-image: url(/imagens/livro_mensagem.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: center;
+    height: 300px;
+    width: 220px;
+    border: none;
+    border-radius: 24px;
+    color: mediumseagreen; 
+    text-shadow: white 0.1em 0.1em 0.2em;
+    margin-left: 98px;
+    margin-top: 31px;
+    padding-left: 20px;
+    }
+
+.mensagem.focus {
+    outline: none;
+}
+
+.botoes {
+    display: flex;
+    margin-top: 18px;
+    padding: 20px 0 px;  
+}
+
+.btn-encriptar {
+    color: white;
+    background-color: mediumseagreen;
+    padding: 5px 70px;
+    border-radius: 10px;
+    border-style: double;
+    border-color: white;
+    margin-right: 2px;
+    margin-left: 50px;
+}
+
+.btn-encriptar:hover {
+	background-color: white;
+	color: mediumseagreen;
+    border-style: double;
+    border-color: mediumseagreen;
+    transition: 0.8s;
+}
+
+.btn-desencriptar {
+    color: mediumseagreen;
+    background-color: white;
+    padding: 5px 40px;
+    border-radius: 10px;
+    border-style: double;
+    border-color: mediumseagreen;
+    margin-left: 2px;
+}
+
+.btn-desencriptar:hover {
+	background-color: mediumseagreen;
+	color: white;
+    border-style: double;
+    border-color: white;
+    transition: 0.8s;
+}
+
+.btn-copiar {
+    color: mediumseagreen;
+    background-color: white;
+    padding: 5px 90px;
+    border-radius: 10px;
+    border-style: double;
+    border-color: mediumseagreen;
+    margin-left: 98px;
+    margin-top: 18px;
+}
+
+.btn-copiar:hover {
+    background-color: mediumseagreen;
+    color: white;
+    transition: 0.8s;
+}
+
+footer {
+    color: white;
+    text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+    .logoUncripto {
+        width: 100px;
+    }
+    main {
+        display: inline;
+    }
+    .text-area {
+        margin-top: 20px;
+        margin-left: 20px;
+        height: 150px;
+        width: 300px;
+        background-color: white;
+    }  
+    .btn-encriptar {
+        font-size: 10px;
+        padding: 2px 30px;
+        margin-right: 30px;
+        margin-left: 40px;
+    }
+    .btn-desencriptar {
+        font-size: 10px;
+        padding: 2px 15px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .mensagem {
+        margin-top: 20px;
+        margin-left: 20px;
+        height: 150px;
+        width: 300px;
+        background-size: 100px;
+    }
+    .btn-copiar {
+        font-size: 10px;
+        padding: 2px 50px;
+        margin-right: 20px;
+        margin-left: 120px;
+        margin-top: 5px;
+    }
+    p {
+        font-size: 10px;
+    }
+}
